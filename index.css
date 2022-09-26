@@ -1,0 +1,21 @@
+body {
+  margin: 10px;
+  background-color: #f7f8fc;
+  font-family: sans-serif;
+  color: #10182f;
+}
+.container {
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+.about {
+  display: flex;
+  text-align: left;
+}
+
+.about .about-eng-id {
+  margin: 10px;
+}
