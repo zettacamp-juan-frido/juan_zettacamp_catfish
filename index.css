@@ -13,9 +13,17 @@ img {
 }
 .about {
   display: flex;
-  text-align: left;
+  text-align: justify;
 }
 
 .about .about-eng-id {
   margin: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: #10182f;
+}
+.icon:hover {
+  color: #0a2d96;
 }
