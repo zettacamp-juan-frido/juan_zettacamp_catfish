@@ -1,0 +1,136 @@
+body {
+  margin: 10px;
+  background-color: #f7f8fc;
+  font-family: sans-serif;
+  color: #10182f;
+}
+.nav {
+  box-shadow: 0px 3px 10px rgb(87, 86, 90);
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  height: 45px;
+}
+.nav .ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav .li {
+  float: left;
+}
+.nav .a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav .a:hover {
+  background-color: #111;
+}
+
+.container {
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+.about {
+  display: flex;
+  text-align: justify;
+}
+
+.about .about-eng-id {
+  margin: 10px;
+}
+
+.icon {
+  padding: 10px;
+  color: #10182f;
+}
+.icon:hover {
+  color: #0a2d96;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #333;
+  display: block;
+  height: 45px;
+  margin: 15px 0;
+  padding: 0;
+  box-shadow: 0px 3px 10px rgb(87, 86, 90);
+}
+.hei {
+  margin-top: 10px;
+}
+
+.tab {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+.colors {
+  background-color: #f2f2f2;
+}
+
+.container-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+}
+
+.card-header {
+  padding-left: 25px;
+  text-align: left;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 20px;
+}
+.card-list {
+  list-style-type: none;
+}
+.card-list-disabler {
+  list-style-type: none;
+  color: rgb(150, 150, 150);
+}
+
+.hhr {
+  width: 250px;
+  height: 0px;
+  background: #fff;
+}
+
+.btn {
+  background-color: #08a76d;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: #05754c;
+}
