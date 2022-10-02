@@ -75,6 +75,22 @@ img {
   border: 1px solid #ddd;
   width: 100%;
 }
+.tb-row {
+  display: flex;
+  text-align: left;
+}
+.tb-colom {
+  margin-top: 20px;
+  border: 1px solid #333;
+  color: #333;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+/* .tb-btn {
+  display: flex;
+  text-align: right;
+} */
 .colors {
   background-color: #f2f2f2;
 }
